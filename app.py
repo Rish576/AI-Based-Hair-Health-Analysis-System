@@ -82,3 +82,47 @@ if uploaded_file is not None:
 
     st.success(f"Prediction: **{result}**")
     st.info(suggestions[result][lang])
+
+st.markdown(
+    """
+    <style>
+    /* Make sidebar wider */
+    [data-testid="stSidebar"] {
+        width: 400px;
+        min-width: 400px;
+    }
+
+    /* Optional: adjust main content to avoid overlap */
+    [data-testid="stMainContent"] {
+        margin-left: 410px;
+    }
+
+    /* Increase font size for sidebar titles */
+    [data-testid="stSidebar"] h1, 
+    [data-testid="stSidebar"] h2, 
+    [data-testid="stSidebar"] h3 {
+        font-size: 28px;  /* for titles/headers */
+    }
+
+    /* Increase font size for regular sidebar text */
+    [data-testid="stSidebar"] p, 
+    [data-testid="stSidebar"] li {
+        font-size: 20px;  /* for text and list items */
+    }
+    "<h2 style='text-align: center; font-weight: bold;'>This is a bold centered sentence</h2>"
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+st.sidebar.title("AICW (Artificial Intellegence Career For Women) By Microsoft and SAP in collaboration with Edunet Foundation")
+st.sidebar.title("👥 Team Information")
+  # Replace with your guide's name
+
+st.sidebar.write("**Team Members:**")
+st.sidebar.write("- Jaswitha Greeshma Gollapalli")  # Replace with actual names
+st.sidebar.write("- Jahnavi Lalitha Devi.A")
+st.sidebar.write("- Juveriya Fathima")
+st.sidebar.write("- Priyanka ch")
+st.sidebar.title("PROJECT GUIDE")
+st.sidebar.write("### Abdul Aziz Md")
+st.sidebar.write("Master Trainer-Edunet Foundation")
