@@ -119,10 +119,9 @@ st.sidebar.title("👥 Team Information")
   # Replace with your guide's name
 
 st.sidebar.write("**Team Members:**")
-st.sidebar.write("- Jaswitha Greeshma Gollapalli")  # Replace with actual names
-st.sidebar.write("- Jahnavi Lalitha Devi.A")
-st.sidebar.write("- Juveriya Fathima")
-st.sidebar.write("- Priyanka ch")
+st.sidebar.write("- Rishitha Krishna Supraja.G")  
+st.sidebar.write("- Giduthoori Poojitha")
+st.sidebar.write("- Kakinada Sri Charanya")
 st.sidebar.title("PROJECT GUIDE")
 st.sidebar.write("### Abdul Aziz Md")
 st.sidebar.write("Master Trainer-Edunet Foundation")
