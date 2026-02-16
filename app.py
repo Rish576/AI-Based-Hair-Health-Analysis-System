@@ -32,31 +32,110 @@ classes = ["Dandruff", "Hair Loss", "Healthy", "Oily"]
 # ----------------------------------
 suggestions = {
     "Hair Loss": {
-        "English": "Eat protein food, use mild shampoo, consult doctor.",
-        "Telugu": "ప్రోటీన్ ఉన్న ఆహారం తినండి, తేలికపాటి షాంపూ వాడండి.",
-        "Hindi": "प्रोटीन वाला खाना खाएं, हल्का शैम्पू इस्तेमाल करें।"
+        "English": """Eat eggs, milk, dal, nuts and green vegetables.
+Drink milk daily for calcium.
+Eat iron foods like spinach and dates.
+Use mild shampoo and reduce heat styling.
+Sleep well and reduce stress.
+Consult a doctor if hair fall is severe.""",
+
+        "Telugu": """గుడ్లు, పాలు, పప్పులు, డ్రైఫ్రూట్స్, ఆకుకూరలు తినండి.
+ప్రతిరోజూ పాలు తాగండి.
+పాలకూర, ఖర్జూరం వంటి ఇనుము ఆహారం తీసుకోండి.
+తేలికపాటి షాంపూ వాడండి.
+స్ట్రెస్ తగ్గించుకుని బాగా నిద్రపోండి.""",
+
+        "Hindi": """अंडे, दूध, दाल, ड्राई फ्रूट्स और हरी सब्जियां खाएं।
+रोज दूध पिएं।
+पालक और खजूर जैसे आयरन वाले भोजन लें।
+हल्का शैम्पू इस्तेमाल करें।
+तनाव कम करें और अच्छी नींद लें।""",
+
+        "Tamil": """முட்டை, பால், பருப்பு, நட்ஸ் மற்றும் கீரை சாப்பிடுங்கள்.
+தினமும் பால் குடிக்கவும்.
+பசலைக் கீரை மற்றும் பேரீச்சம்பழம் போன்ற இரும்பு உணவு சாப்பிடுங்கள்.
+மென்மையான ஷாம்பு பயன்படுத்துங்கள்.
+மன அழுத்தத்தை குறைத்து நன்றாக தூங்குங்கள்."""
     },
+
     "Dandruff": {
-        "English": "Use anti-dandruff shampoo twice weekly.",
-        "Telugu": "డాండ్రఫ్ షాంపూ వారానికి 2 సార్లు వాడండి.",
-        "Hindi": "एंटी डैंड्रफ शैम्पू हफ्ते में 2 बार लगाएं।"
+        "English": """Drink plenty of water and eat fruits.
+Eat curd, milk and nuts for scalp health.
+Use anti-dandruff shampoo twice a week.
+Avoid junk and oily foods.
+Keep scalp clean and dry.""",
+
+        "Telugu": """నీరు ఎక్కువగా తాగండి, పండ్లు తినండి.
+పెరుగు, పాలు, డ్రైఫ్రూట్స్ తినండి.
+డాండ్రఫ్ షాంపూ వారానికి 2 సార్లు వాడండి.
+జంక్ ఫుడ్ తగ్గించండి.
+తలను శుభ్రంగా ఉంచండి.""",
+
+        "Hindi": """ज्यादा पानी पिएं और फल खाएं।
+दही, दूध और ड्राई फ्रूट्स लें।
+एंटी डैंड्रफ शैम्पू हफ्ते में 2 बार लगाएं।
+जंक फूड कम करें।
+स्कैल्प साफ रखें।""",
+
+        "Tamil": """நீர் அதிகமாக குடித்து பழங்கள் சாப்பிடுங்கள்.
+தயிர், பால் மற்றும் நட்ஸ் எடுத்துக்கொள்ளுங்கள்.
+வாரத்திற்கு 2 முறை டாண்ட்ரஃப் ஷாம்பு பயன்படுத்துங்கள்.
+ஜங்க் உணவை குறைக்கவும்.
+தலைச் சருமத்தை சுத்தமாக வைத்துக்கொள்ளுங்கள்."""
     },
+
     "Oily": {
-        "English": "Wash hair regularly and avoid heavy oil.",
-        "Telugu": "తలస్నానం తరచుగా చేయండి.",
-        "Hindi": "बाल नियमित धोएं।"
+        "English": """Wash hair regularly.
+Drink lemon water and eat fruits.
+Avoid fried and oily foods.
+Eat dal, vegetables and curd.
+Keep pillow covers clean.""",
+
+        "Telugu": """తలస్నానం తరచుగా చేయండి.
+నిమ్మరసం నీరు తాగండి, పండ్లు తినండి.
+ఫ్రైడ్ మరియు ఆయిల్ ఫుడ్ తగ్గించండి.
+పప్పులు, కూరగాయలు, పెరుగు తినండి.""",
+
+        "Hindi": """बाल नियमित धोएं।
+नींबू पानी पिएं और फल खाएं।
+तला हुआ और ज्यादा तेल वाला खाना कम करें।
+दाल, सब्जी और दही खाएं।""",
+
+        "Tamil": """முடியை அடிக்கடி கழுவுங்கள்.
+எலுமிச்சை நீர் குடித்து பழங்கள் சாப்பிடுங்கள்.
+வறுத்த மற்றும் அதிக எண்ணெய் உணவை தவிர்க்கவும்.
+பருப்பு, காய்கறி மற்றும் தயிர் சாப்பிடுங்கள்."""
     },
+
     "Healthy": {
-        "English": "Your scalp looks healthy!",
-        "Telugu": "మీ తల ఆరోగ్యంగా ఉంది!",
-        "Hindi": "आपका स्कैल्प स्वस्थ है!"
+        "English": """Your scalp looks healthy!
+Drink milk daily.
+Eat eggs, fruits, vegetables and dal.
+Drink enough water.
+Maintain good hair hygiene.""",
+
+        "Telugu": """మీ తల ఆరోగ్యంగా ఉంది!
+ప్రతిరోజూ పాలు తాగండి.
+గుడ్లు, పండ్లు, కూరగాయలు, పప్పులు తినండి.
+నీరు ఎక్కువగా తాగండి.""",
+
+        "Hindi": """आपका स्कैल्प स्वस्थ है!
+रोज दूध पिएं।
+अंडे, फल, सब्जियां और दाल खाएं।
+पर्याप्त पानी पिएं।""",
+
+        "Tamil": """உங்கள் தலைமுடி ஆரோக்கியமாக உள்ளது!
+தினமும் பால் குடிக்கவும்.
+முட்டை, பழங்கள், காய்கறிகள் மற்றும் பருப்பு சாப்பிடுங்கள்.
+நீர் அதிகமாக குடிக்கவும்."""
     }
 }
+
 
 # ----------------------------------
 # Language Selection
 # ----------------------------------
-lang = st.selectbox("Choose Language", ["English", "Telugu", "Hindi"])
+lang = st.selectbox("Choose Language", ["English", "Telugu", "Hindi", "Tamil"])
 
 # ----------------------------------
 # Image Upload
@@ -125,3 +204,4 @@ st.sidebar.write("- Kakinada Sri Charanya")
 st.sidebar.title("PROJECT GUIDE")
 st.sidebar.write("### Abdul Aziz Md")
 st.sidebar.write("Master Trainer-Edunet Foundation")
+
